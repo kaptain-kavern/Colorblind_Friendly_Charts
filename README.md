@@ -4,9 +4,11 @@ Change colours in History Tabs Charts in order to be more distinguishable
 
 <p align="center"><img src="http://i.imgur.com/4ZOfvKb.jpg" alt="Colorblind Friendly Chart" width="400" /></p>
 
-This mod came from [this request on Reddit](https://www.reddit.com/r/RimWorld/comments/4ujca6/colorblind_mode_the_histroy_is_almost_un_usable)
+This mod can be added to an existing save
 
 ## Documentation Used
+This mod came from [this request on Reddit](https://www.reddit.com/r/RimWorld/comments/4ujca6/colorblind_mode_the_histroy_is_almost_un_usable).
+
 I used informations find on this site : [Color Universal Design (CUD) - How to make figures and presentations that are friendly to Colorblind people](http://jfly.iam.u-tokyo.ac.jp/color/) 
 <p align="center">(especially this chart)</p>
 <p align="center"><img src="http://jfly.iam.u-tokyo.ac.jp/color/image/pallete.jpg" alt="Colorblind barrier-free color pallet" /></p>
