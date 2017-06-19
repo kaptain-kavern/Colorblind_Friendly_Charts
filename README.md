@@ -1,6 +1,6 @@
 # Colorblind Friendly Charts
 ## Mod description
-Change colours in History Tabs Charts in order to be more distinguishable
+Change colours in History Tabs Charts and in the Work Planner ("Restrict" button) in order to be more distinguishable
 
 <p align="center"><img src="http://i.imgur.com/4ZOfvKb.jpg" alt="Colorblind Friendly Chart" width="400" /></p>
 
