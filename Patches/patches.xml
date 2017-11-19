@@ -3,42 +3,42 @@
 
 <!-- History Tab -->
 	<Operation Class="PatchOperationReplace"> <!-- Yellow -->
-		<xpath>HistoryAutoRecorderDefs/HistoryAutoRecorderDef[defName = "WealthTotal"]/graphColor</xpath>
+		<xpath>Defs/HistoryAutoRecorderDef[defName = "WealthTotal"]/graphColor</xpath>
 		<value>
 			<graphColor>(240, 228, 66)</graphColor>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace"> <!-- Bluish Green -->
-		<xpath>HistoryAutoRecorderDefs/HistoryAutoRecorderDef[defName = "WealthItems"]/graphColor</xpath>
+		<xpath>Defs/HistoryAutoRecorderDef[defName = "WealthItems"]/graphColor</xpath>
 		<value>
 			<graphColor>(0, 158, 115)</graphColor>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace"> <!-- Vermilion -->
-		<xpath>HistoryAutoRecorderDefs/HistoryAutoRecorderDef[defName = "WealthBuildings"]/graphColor</xpath>
+		<xpath>Defs/HistoryAutoRecorderDef[defName = "WealthBuildings"]/graphColor</xpath>
 		<value>
 			<graphColor>(213, 94, 0)</graphColor>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace"> <!-- Bluish Green -->
-		<xpath>HistoryAutoRecorderDefs/HistoryAutoRecorderDef[defName = "FreeColonists"]/graphColor</xpath>
+		<xpath>Defs/HistoryAutoRecorderDef[defName = "FreeColonists"]/graphColor</xpath>
 		<value>
 			<graphColor>(0, 158, 115)</graphColor>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace"> <!-- Vermilion -->
-		<xpath>HistoryAutoRecorderDefs/HistoryAutoRecorderDef[defName = "Prisoners"]/graphColor</xpath>
+		<xpath>Defs/HistoryAutoRecorderDef[defName = "Prisoners"]/graphColor</xpath>
 		<value>
 			<graphColor>(213, 94, 0)</graphColor>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace"> <!-- Bluish Green -->
-		<xpath>HistoryAutoRecorderDefs/HistoryAutoRecorderDef[defName = "ColonistMood"]/graphColor</xpath>
+		<xpath>Defs/HistoryAutoRecorderDef[defName = "ColonistMood"]/graphColor</xpath>
 		<value>
 			<graphColor>(0, 158, 115)</graphColor>
 		</value>
