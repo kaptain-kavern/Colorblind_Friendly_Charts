@@ -1,70 +1,67 @@
 <?xml version="1.0" encoding="utf-8" ?>
+
 <Patch>
 
-<!-- History Tab -->
-	<Operation Class="PatchOperationReplace"> <!-- Yellow -->
-		<xpath>Defs/HistoryAutoRecorderDef[defName = "WealthTotal"]/graphColor</xpath>
-		<value>
-			<graphColor>(240, 228, 66)</graphColor>
-		</value>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<!-- History Tab -->
+			<li Class="PatchOperationReplace"> <!-- Yellow -->
+				<xpath>/Defs/HistoryAutoRecorderDef[defName = "WealthTotal"]/graphColor</xpath>
+				<value>
+					<graphColor>(240, 228, 66)</graphColor>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace"> <!-- Bluish Green -->
+				<xpath>Defs/HistoryAutoRecorderDef[defName = "WealthItems"]/graphColor</xpath>
+				<value>
+					<graphColor>(0, 158, 115)</graphColor>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace"> <!-- Vermilion -->
+				<xpath>Defs/HistoryAutoRecorderDef[defName = "WealthBuildings"]/graphColor</xpath>
+				<value>
+					<graphColor>(213, 94, 0)</graphColor>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace"> <!-- Bluish Green -->
+				<xpath>Defs/HistoryAutoRecorderDef[defName = "FreeColonists"]/graphColor</xpath>
+				<value>
+					<graphColor>(0, 158, 115)</graphColor>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace"> <!-- Vermilion -->
+				<xpath>Defs/HistoryAutoRecorderDef[defName = "Prisoners"]/graphColor</xpath>
+				<value>
+					<graphColor>(213, 94, 0)</graphColor>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace"> <!-- Bluish Green -->
+				<xpath>Defs/HistoryAutoRecorderDef[defName = "ColonistMood"]/graphColor</xpath>
+				<value>
+					<graphColor>(0, 158, 115)</graphColor>
+				</value>
+			</li>
+			<!-- Restrict Tab -->
+			<li Class="PatchOperationReplace"> <!-- Bluish Green -->
+				<xpath>Defs/TimeAssignmentDef[defName = "Work"]/color</xpath>
+				<value>
+					<color>(0, 158, 115)</color>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace"> <!-- Vermilion -->
+				<xpath>Defs/TimeAssignmentDef[defName = "Joy"]/color</xpath>
+				<value>
+					<color>(213, 94, 0)</color>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace"> <!-- Reddish Purple -->
+				<xpath>Defs/TimeAssignmentDef[defName = "Sleep"]/color</xpath>
+				<value>
+					<color>(204, 121, 167)</color>
+				</value>
+			</li>
+		</operations>
 	</Operation>
 
-	<Operation Class="PatchOperationReplace"> <!-- Bluish Green -->
-		<xpath>Defs/HistoryAutoRecorderDef[defName = "WealthItems"]/graphColor</xpath>
-		<value>
-			<graphColor>(0, 158, 115)</graphColor>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationReplace"> <!-- Vermilion -->
-		<xpath>Defs/HistoryAutoRecorderDef[defName = "WealthBuildings"]/graphColor</xpath>
-		<value>
-			<graphColor>(213, 94, 0)</graphColor>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationReplace"> <!-- Bluish Green -->
-		<xpath>Defs/HistoryAutoRecorderDef[defName = "FreeColonists"]/graphColor</xpath>
-		<value>
-			<graphColor>(0, 158, 115)</graphColor>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationReplace"> <!-- Vermilion -->
-		<xpath>Defs/HistoryAutoRecorderDef[defName = "Prisoners"]/graphColor</xpath>
-		<value>
-			<graphColor>(213, 94, 0)</graphColor>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationReplace"> <!-- Bluish Green -->
-		<xpath>Defs/HistoryAutoRecorderDef[defName = "ColonistMood"]/graphColor</xpath>
-		<value>
-			<graphColor>(0, 158, 115)</graphColor>
-		</value>
-	</Operation>
-
-
-<!-- Restrict Tab -->
-	<Operation Class="PatchOperationReplace"> <!-- Bluish Green -->
-		<xpath>Defs/TimeAssignmentDef[defName = "Work"]/color</xpath>
-		<value>
-			 <color>(0, 158, 115)</color>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationReplace"> <!-- Vermilion -->
-		<xpath>Defs/TimeAssignmentDef[defName = "Joy"]/color</xpath>
-		<value>
-			 <color>(213, 94, 0)</color>
-		</value>
-	</Operation>
-	
-	<Operation Class="PatchOperationReplace"> <!-- Reddish Purple -->
-		<xpath>Defs/TimeAssignmentDef[defName = "Sleep"]/color</xpath>
-		<value>
-			 <color>(204, 121, 167)</color>
-		</value>
-	</Operation>
-
-</Patch>
+	</Patch>
