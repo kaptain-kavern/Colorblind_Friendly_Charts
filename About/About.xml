@@ -1,9 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-<name>Colorblind Friendly Charts</name>
-<author>KapTaiN_KaVerN</author>
-<targetVersion>0.18.0</targetVersion>
-<description>Change colours in History Tabs Charts and in the Work Planner ("Restrict" button) in order to be more distinguishable
+    <name>Colorblind Friendly Charts</name>
+    <author>KapTaiN_KaVerN</author>
+    <url>https://github.com/kaptain-kavern/Colorblind_Friendly_Charts</url>
+    <supportedVersions>
+      <li>1.0</li>
+    </supportedVersions>
+    <description>Change colours in History Tabs Charts and in the Work Planner ("Restrict" button) in order to be more distinguishable
 
 This mod can be added to an existing save</description>
 </ModMetaData>

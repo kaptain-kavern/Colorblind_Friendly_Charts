@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<Manifest>
+  <identifier>ColorblindFriendlyCharts</identifier>
+  <version>1.0</version>
+  <manifestUri>https://github.com/kaptain-kavern/Colorblind_Friendly_Charts/master/About/Manifest.xml</manifestUri>
+  <downloadUri>https://github.com/kaptain-kavern/Colorblind_Friendly_Charts/releases/latest</downloadUri>
+</Manifest>
